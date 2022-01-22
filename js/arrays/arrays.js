@@ -15,10 +15,44 @@ myInsert(index,val){
        this.arr[index] = val 
     }
 }
+//append
+myAppend(val){
+  if(this.length  <this.size){
+    //length of array is index of next val
+    this.arr[this.length] =val;
+    this.length++
+  }
+  
+  }
+  //delete
+  Delete(index){
+    //index is inside the lenght
+    let value = this.values[index]
+    if (index >= 0 && index < this.length) {
+  
+      while (index < this.length - 1) {
+  
+        this.values[index] = this.values[index + 1];
+        index++;
+      }
+      this.length--;
+      return value;
+    }
+  }
+
 }
 // [1,2,3,4,5,6,,,]
 //insert(2,7)
-var arr= new myArray( 10,6 ,[1,2,3,4,5,6,]) 
+
+
+
+var arr= new myArray( 10,6 ,[1,2,3,4,5,6]) 
 console.log(arr) 
- arr.myInsert(2,7)
-console.log(arr)  
+ arr.myAppend(2)
+  console.log(arr)  
+
+
+
+
+
+
