@@ -19,8 +19,8 @@ myInsert(index,val){
 myAppend(val){
   if(this.length  <this.size){
     //length of array is index of next val
-    this.arr[this.length] =val;
-    this.length++
+    this.arr[this.length++] =val;
+    
   }
   
   }
