@@ -29,6 +29,29 @@ auxillary space complexity:space required by the algorithm, not including space 
 1.Most primitives (booleans, numbers, undefined, null) are constant space.
 2.Strings require O(n) space (where n is the string length)
 3.Reference types are generally O( n), where n is the length (for arrays) or the number of keys (for objects)
-e.g 1
+
 logarithm /exponent of number :number of times you can divide that number by 2 before you get a value that's less than or equal to one
         e.g some searching algorithims, efficient sorting,recursion sometimes
+       e.g 1 :space complexity =0(1)
+       function sum(arr){
+           let total =0;
+           for(let i =0 ;i< arr.lenth;i++>){
+               total +=arr[i];
+           }
+           return total;
+       } 
+       eg2:spce complexity 0(n)
+       function double(arr){
+           let newArr =[];
+           for(let i =0; i<arr.lentrh;i++){
+               newArr.push(2*arr[i]);
+           }
+           return newArr;
+       }
+
+       eg3:spce 0(1)
+       function logUpTo(n) {
+    for (var i = 1; i <= n; i++) {
+        console.log(i);
+    }
+}
