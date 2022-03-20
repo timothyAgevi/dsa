@@ -8,3 +8,13 @@
 | O (n3) |Cubic |<ul><li>3 variables equation solver</li></ul> |
 | O (2n) |exponential |<ul><li> Find all subsets</li></ul> |
 | O (n!) |factorial |<ul><li>find all permutations of a given set/string</li></ul> |
+
+rules of thiumbs for big o
+ 1.Constants do not matter.
+ 2.Smaller terms dpnt matter.
+ 
+ big o sharthands 
+ 1.Arithmetic operations are constants.
+ 2.Variable assignments is constant.
+3.accesing object in arrar(by index) or object(by key)is constant
+4. in a loop,  complexity =length of loop * complexity of what happens inside it
