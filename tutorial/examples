@@ -1,0 +1,15 @@
+1.Write a functionthat accepts string input and returns a reversed msg
+2.function that calculates the sum of all numbers from 1 up to(AND INCLUDING )some number n
+solution to 2: 
+function addUpto(n){                             
+     let total =0;        
+    for (let i =1;i <=n;i++){
+        total+=1;
+    }
+    return total;
+}
+ sln 2 b:
+ function addUpTo1(n){ 
+     return n *(n+1)/2;
+ }
+ 
