@@ -21,3 +21,5 @@ rules of thiumbs for big o
 
 #space complexity:
 Memory allocated to run algo
+
+auxillary space complexity:space required by the algorithm, not including space taken up by the inputs
