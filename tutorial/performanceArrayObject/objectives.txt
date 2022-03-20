@@ -19,3 +19,7 @@ when to use objects
 2.object .values - 0(n)
 3.object.entries - o(n)
 4.hasOwnProperty - o(1),true,false
+
+##arrays
+wwhen need ordering-
+-fast acess/insertion and removal(sort of ..)
