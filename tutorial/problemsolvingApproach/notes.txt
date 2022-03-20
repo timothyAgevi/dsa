@@ -5,3 +5,11 @@ objectives
 #improved
 1.plan for solving problems with.
 2.master common problem solving patterns - for each category of problem solving patterns
+
+#problem solving 
+1.Understand problem.
+2.Explore concrete examples.
+3.Break it down.
+4.solve or simplify.
+5.look back n refactor.
+6
