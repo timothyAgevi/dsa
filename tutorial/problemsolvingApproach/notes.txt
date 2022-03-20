@@ -2,3 +2,6 @@ objectives
 1.define algorithm.
 2.Plan to solve algorithm.
 3.compare and contrast problem solving patterns: frequency counters,two pointer problems and divide and conquer
+#improved
+1.plan for solving problems with.
+2.master common problem solving patterns - for each category of problem solving patterns
