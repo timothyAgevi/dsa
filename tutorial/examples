@@ -21,7 +21,8 @@ function addUpto(n){
 
  rules of thiumbs for big o
  1.Constants do not matter.
- 2.
+ 2.Smaller terms dpnt matter.
+ 3
 
 
 
