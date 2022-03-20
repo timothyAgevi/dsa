@@ -18,10 +18,3 @@ function addUpto(n){
  addUpto(100000000);
  let t2=performance.now();
  console.log(`toime elapsed :${ (t1 -t2)/ 1000 seconds})
-
-qn3: 0(n)
-function logAtleasr5(n){
-    for( var i =1; i <=Math.max(5,n);i++){
-        console,log(i);
-    }
-}

@@ -9,7 +9,7 @@
 | O (2n) |exponential |<ul><li> Find all subsets</li></ul> |
 | O (n!) |factorial |<ul><li>find all permutations of a given set/string</li></ul> |
 
-rules of thiumbs for big o
+rules of thumbs for big o
  1.Constants do not matter.
  2.Smaller terms dpnt matter.
  
