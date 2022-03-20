@@ -6,7 +6,7 @@ objectives
 1.plan for solving problems with.
 2.master common problem solving patterns - for each category of problem solving patterns
 
-#problem solving 
+# #problem solving 
  #1.Understand problem.
 e.g Write a function that takes 2 numbers and returns their sum
 1-can restate problem inmy own words.
@@ -18,8 +18,7 @@ int,float ,string?
 4-can outputs be determined from inputs.
 5-how to label data part of this problem.-terminologies
 
-2.Explore concrete examples.
-3.Break it down.
-4.solve or simplify.
-5.look back n refactor.
-6
+# 2.Explore concrete examples.
+ #3.Break it down.
+#4.solve or simplify.
+#5.look back n refactor.
