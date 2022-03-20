@@ -32,3 +32,14 @@ n.b searching in arrays and objects:o(n)while acessing is big o(1)
     - inserting removing at the end:constant 
                              the start o(n)
     - push snd pop fasterthan shift ,unshift unless in empty array.                  
+
+#nbig o of array methods 
+1.push -o(1) adds to end of array
+2.pop -0(1) removes the last element from an array and returns that element.
+3.shift -o(n),removes the first element from an array and returns the removed element
+4. unshift -o(n),adds one or more elements to the beginning of an array and returns the new length of the array.
+5.concat -o(n),joins strings and returns new string.
+6.slice- o(n),eturns the extracted part in a new string.new array is returned
+7.splice-o(n),returns the.
+8.sort -o (n *log n),
+9.forEach,map,filter,reduce - o(n)
