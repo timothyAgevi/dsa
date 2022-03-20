@@ -5,7 +5,14 @@ function logAtleasr5(n){
 }
  // space complexity 
 
-qn1: 0(n)
+
+ //qn1:o(1)
+ function logUpTo(n) {
+    for (var i = 1; i <= n; i++) {
+        console.log(i);
+    }
+}
+//qn2: 0(n)
 function logAtleasr5(n){
     for( var i =1; i <=Math.max(5,n);i++){
         console,log(i);
@@ -18,3 +25,4 @@ function logAtMost10(n) {
         console.log(i);
     }
 }
+//
