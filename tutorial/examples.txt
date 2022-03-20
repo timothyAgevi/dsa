@@ -19,12 +19,9 @@ function addUpto(n){
  let t2=performance.now();
  console.log(`toime elapsed :${ (t1 -t2)/ 1000 seconds})
 
- rules of thiumbs for big o
- 1.Constants do not matter.
- 2.Smaller terms dpnt matter.
- 
- big o sharthands 
- 1.Arithmetic operations are constants.
- 2.Variable assignments is constant.
-3.accesing object in arrar(by index) or object(by key)is constant
-4. in a loop,  complexity =length of loop * complexity of what happens inside it
+qn3: 0(n)
+function logAtleasr5(n){
+    for( var i =1; i <=Math.max(5,n);i++){
+        console,log(i);
+    }
+}
