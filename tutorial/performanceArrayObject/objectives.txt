@@ -1,0 +1,4 @@
+objectives
+1.how objects  and arrays work thru big O.
+2.explaing why adding elements to the beggining of arry is costly.
+3.Compare and contracts runtime for arrays and objects ,as well as built in methods.
