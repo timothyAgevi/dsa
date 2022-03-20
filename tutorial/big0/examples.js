@@ -19,10 +19,19 @@ function logAtleasr5(n){
     }
 }
 
-//qn2: 0(1)
+//qn3: 0(1)
 function logAtMost10(n) {
     for (var i = 1; i <= Math.min(n, 10); i++) {
         console.log(i);
     }
 }
-//
+//qn4 o(n)
+function onlyElementsAtEvenIndex(array) {
+    var newArray = Array(Math.ceil(array.length / 2));
+    for (var i = 0; i < array.length; i++) {
+        if (i % 2 === 0) {
+            newArray[i / 2] = array[i];
+        }
+    }
+    return newArray;
+}
