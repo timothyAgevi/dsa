@@ -13,7 +13,7 @@ rules of thiumbs for big o
  1.Constants do not matter.
  2.Smaller terms dpnt matter.
  
- big o sharthands 
+ big o  time complexity sharthands 
  1.Arithmetic operations are constants.
  2.Variable assignments is constant.
 3.accesing object in arrar(by index) or object(by key)is constant
@@ -23,3 +23,12 @@ rules of thiumbs for big o
 Memory allocated to run algo
 
 auxillary space complexity:space required by the algorithm, not including space taken up by the inputs
+-Mostly used
+
+#space complexity Rules of thumbs
+1.Most primitives (booleans, numbers, undefined, null) are constant space.
+2.Strings require O(n) space (where n is the string length)
+3.Reference types are generally O( n), where n is the length (for arrays) or the number of keys (for objects)
+e.g 1
+logarithm /exponent of number :number of times you can divide that number by 2 before you get a value that's less than or equal to one
+        e.g some searching algorithims, efficient sorting,recursion sometimes
