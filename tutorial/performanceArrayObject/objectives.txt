@@ -2,3 +2,14 @@ objectives
 1.how objects  and arrays work thru big O.
 2.explaing why adding elements to the beggining of arry is costly.
 3.Compare and contracts runtime for arrays and objects ,as well as built in methods.
+
+
+when to use objects 
+-dont need ordering
+-fast access/insertion and removal.
+
+#Big O of object 
+1.insertion -o(1)
+2.removal-o(1)
+3.searching -o(n)
+4.acess -o(1)
