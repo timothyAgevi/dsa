@@ -23,3 +23,12 @@ when to use objects
 ##arrays
 wwhen need ordering-
 -fast acess/insertion and removal(sort of ..)
+#Big O of Arrays
+1.insertion- depends .
+2.Removal - depends .
+3.Searching -o(n)
+4.acess-o(1)
+n.b searching in arrays and objects:o(n)while acessing is big o(1)
+    - inserting removing at the end:constant 
+                             the start o(n)
+    - push snd pop fasterthan shift ,unshift unless in empty array.                  
