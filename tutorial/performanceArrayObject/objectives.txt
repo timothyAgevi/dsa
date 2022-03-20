@@ -13,3 +13,9 @@ when to use objects
 2.removal-o(1)
 3.access -o(1)
 4.searching -o(n) ,e,g if info is in a  value  
+
+#big o of object methods
+1.object.keys -o(n)
+2.object .values - 0(n)
+3.object.entries - o(n)
+4.hasOwnProperty - o(1),true,false
