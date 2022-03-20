@@ -1,0 +1,4 @@
+objectives
+1.define algorithm.
+2.Plan to solve algorithm.
+3.compare and contrast problem solving patterns: frequency counters,two pointer problems and divide and conquer
