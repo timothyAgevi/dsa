@@ -9,7 +9,7 @@ objectives
 # #problem solving 
  #1.Understand problem.
 e.g Write a function that takes 2 numbers and returns their sum
-1-can restate problem inmy own words.
+1-can restate problem in my own words.
 "implementate addition"
 2-inputs to prolem.
 INTS?float?

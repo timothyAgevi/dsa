@@ -11,7 +11,7 @@
 
 rules of thumbs for big o
  1.Constants do not matter.
- 2.Smaller terms dpnt matter.
+ 2.Smaller terms dont matter.
  
  big o  time complexity sharthands 
  1.Arithmetic operations are constants.
