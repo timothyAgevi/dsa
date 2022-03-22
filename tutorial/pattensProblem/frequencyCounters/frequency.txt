@@ -1,0 +1,4 @@
+-uses objects or sets to collect values/frequencies of values.
+-often to avoid nested loops or o(n^2)with arrays/strings .
+e.g compare inputs if similar values, anagrams,value contained within another value
+-usually o(n) instead of o(n^2)quadratic
