@@ -42,7 +42,7 @@ return result;
     //make object to return at end
     var result ={};
     //loop over str,foreach char
-    for(var i =0;i<str.length;i++){
+    for(var char of str){
        // variable for str[i] 
        var char =str[i].toLowerCase()
        //add regular experession to result //TO CHECKALPHANUMERIC
