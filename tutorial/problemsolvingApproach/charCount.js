@@ -67,5 +67,5 @@ return result;
    //3.code >96 <123 :lowercas alpja
      
      console.log(charCount1("hello there"))
-     let str;
-     console.log(str.charCode(48))
+     
+     
