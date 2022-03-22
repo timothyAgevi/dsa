@@ -14,25 +14,22 @@
   //function with 2 params
 function same(arr1,arr2){
 //check if ar1.length same as arr2
-let length1=arr1.length;
-let length2 = arr2.length;
-       if( length1 !==length2){
-         return false;
+   if( arr1.length !==arr2.length){
+       return false;
 }
 //loop indexes at arr1
-for( i=0; i<=arr1.length;i++){
-     //var for corect index(containing arr[1]*2)
-    let correctIndex = arr2.indexOf(arr1[i]*2);
-    if( correctIndex === -1){ //check if corectIndex is present in arr2
+    for( i=0; i<=arr1.length;i++){
+     //var for corect index(containing arr[1]**2)
+      let correctIndex = arr2.indexOf(arr1[i]**2);
+       if( correctIndex === -1){ //check if corectIndex is present in arr2
         return false;//if not return false
     }
-    arr2.splice(correctIndex,1)//else splice it from array
+     arr2.splice(correctIndex,1)//else splice it from array
 }
-  return true 
+  return true ;
    }
  
-   //solution 2 0(n): loop thru each array once individually
-
+   console.log(same([2], [4]))
      
       
    

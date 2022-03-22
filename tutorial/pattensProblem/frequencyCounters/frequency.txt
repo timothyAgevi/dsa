@@ -2,3 +2,21 @@
 -often to avoid nested loops or o(n^2)with arrays/strings .
 e.g compare inputs if similar values, anagrams,value contained within another value
 -usually o(n) instead of o(n^2)quadratic
+
+important : object consist of key(element in arr) ,value(frequency/number of appearance)
+ note:
+  for in:  iterates over keys.
+ for of : iterates over values.
+
+ just by the ways
+  var arr = [3, 5, 7];
+arr.foo = "hello";
+    
+for (var i in arr) {
+  console.log(i); // logs "0", "1", "2", "foo"
+}
+    
+for (var i of arr) {
+  console.log(i); // logs "3", "5", "7"
+  // it doesn't log "3", "5", "7", "hello"
+}
