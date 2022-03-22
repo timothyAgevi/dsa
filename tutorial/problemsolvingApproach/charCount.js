@@ -15,6 +15,9 @@ function charCount(str){
 //make object to return at end
 var result ={};
 //loop over str,foreach char
+for(var i =0;i<str.length;i++){
+    
+}
    //if char is a number/letter and key in object ,add one to count object
      //if char is a number/letter a not  in object ,add it and set value to 1 .
       //if char issth else(soace,period etc)dont do anything
