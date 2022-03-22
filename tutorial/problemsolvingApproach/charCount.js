@@ -57,7 +57,7 @@ return result;
     //return object at end
     return result;
     }
-    console.log(charCount1("hello there"))
+    console.log(charCount1("hello "))
 
     //notes on charcter codes for
    // 1.Code> 47 <58 : numeric characters.
@@ -83,9 +83,7 @@ return result;
     //return object at end
     return result;
     }
-
-
-
+    console.log(charCount1("hello "))
   //isAlphaNumeric function
   function isAlphanumeric(char){
       code =char.charCodeAt(0);
