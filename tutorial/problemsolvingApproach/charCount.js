@@ -18,6 +18,8 @@ var result ={};
 for(var i =0;i<str.length;i++){
    // variable for str[i] 
    var char =str[i].toLowerCase()
+   //add regular experession to result
+   if(/[a-z0-9]/.test(char)){
    if(result[char]>0){//char exists in str
     ////if char is a number/letter and key in object ,add one to count object
       result[char]++;
@@ -26,6 +28,7 @@ for(var i =0;i<str.length;i++){
        result[char] =1;//char not yet in result object
    };
    
+}
 }
  //if char issth else(soace,period etc)dont do anything
 //return object at end
