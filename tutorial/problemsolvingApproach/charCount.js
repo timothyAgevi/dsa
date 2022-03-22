@@ -18,7 +18,7 @@ var result ={};
 for(var i =0;i<str.length;i++){
    // variable for str[i] 
    var char =str[i].toLowerCase()
-   //add regular experession to result
+   //add regular experession to result //TO CHECKALPHANUMERIC
    if(/[a-z0-9]/.test(char)){
    if(result[char]>0){//char exists in str
     ////if char is a number/letter and key in object ,add one to count object
@@ -34,5 +34,5 @@ for(var i =0;i<str.length;i++){
 //return object at end
 return result;
 }
-//TO CHECKALPHANUMERIC :use regular expressions
+ 
  console.log(charCount("hello !"))
