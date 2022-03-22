@@ -48,10 +48,10 @@ return result;
        var char =char.toLowerCase()// reasign char
        //add regular experession to result //TO CHECKALPHANUMERIC
        if(/[a-z0-9]/.test(char)){
-       if(result[char]>0){//char exists in str
+   //char exists in str
         ////if char is a number/letter and key in object ,add one to count object
           result[char]=++result[char] || 1; //oneline if else
-       }
+       
        
     }
     }
@@ -60,4 +60,4 @@ return result;
     return result;
     }
      
-     console.log(charCount1("hello !"))
+     console.log(charCount1("hello there"))
