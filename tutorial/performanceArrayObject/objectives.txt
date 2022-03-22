@@ -39,7 +39,7 @@ n.b searching in arrays and objects:o(n)while acessing is big o(1)
 3.shift -o(n),removes the first element from an array and returns the removed element
 4. unshift -o(n),adds one or more elements to the beginning of an array and returns the new length of the array.
 5.concat -o(n),joins strings and returns new string.
-6.slice- o(n),eturns the extracted part in a new string.new array is returned
-7.splice-o(n),returns the.
+6.slice- o(n),returns the extracted part in a new string.new array is returned
+7.splice-o(n),add/ removes element of an array.parameters(index,howmany,itemx..i,temX)
 8.sort -o (n *log n),
 9.forEach,map,filter,reduce - o(n)
