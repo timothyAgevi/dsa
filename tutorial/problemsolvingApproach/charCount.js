@@ -59,5 +59,13 @@ return result;
     //return object at end
     return result;
     }
+
+
+    //notes on charcter codes for
+   // 1.Code> 47 <58 : numeric characters.
+   // 2.Code >63 <91 :upper alpha A-Z .
+   //3.code >96 <123 :lowercas alpja
      
      console.log(charCount1("hello there"))
+     let str;
+     console.log(str.charCode(48))
