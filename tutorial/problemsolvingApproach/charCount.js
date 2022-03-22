@@ -65,7 +65,24 @@ return result;
    //3.code >96 <123 :lowercas alpja
      
   // slolution3 using isAlphabet instead of regular experessin
-
+  function charCount2(str){
+    //make object to return at end
+    var result ={};
+    //loop over str,foreach char
+    for(var char of str){ //char of str
+       // variable for str[i] 
+       var char =char.toLowerCase()// reasign char
+       //add regular experession to result //TO CHECKALPHANUMERIC
+       if(/[a-z0-9]/.test(char)){  //if char issth else(soace,period etc)dont do anything
+   //char exists in str
+        ////if char is a number/letter and key in object ,add one to count object
+          result[char]=++result[char] || 1; //oneline if else     
+    }
+    }
+   
+    //return object at end
+    return result;
+    }
 
 
 
