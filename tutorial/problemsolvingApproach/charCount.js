@@ -32,4 +32,4 @@ for(var i =0;i<str.length;i++){
 return result;
 }
 //TO CHECKALPHANUMERIC :use regular expressions
- console.log(charCount("hello"))
+ console.log(charCount("hello !"))
