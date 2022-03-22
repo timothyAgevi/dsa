@@ -19,7 +19,9 @@ for(var i =0;i<str.length;i++){
    // variable for str[i] 
    var char =str[i]
    if(result[char]>0){//char exists in str
-
+      result[char]
+   }else{
+       result[char] =1;//char not yet inresult object
    }
 }
 
