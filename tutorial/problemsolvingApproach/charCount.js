@@ -50,9 +50,7 @@ return result;
        if(/[a-z0-9]/.test(char)){  //if char issth else(soace,period etc)dont do anything
    //char exists in str
         ////if char is a number/letter and key in object ,add one to count object
-          result[char]=++result[char] || 1; //oneline if else
-       
-       
+          result[char]=++result[char] || 1; //oneline if else     
     }
     }
    
@@ -66,6 +64,22 @@ return result;
    // 2.Code >63 <91 :upper alpha A-Z .
    //3.code >96 <123 :lowercas alpja
      
+  // slolution3 using isAlphabet instead of regular experessin
+
+
+
+
+  //isAlphaNumeric function
+  function isAlphanumeric(char){
+      code =char.charCodeAt(0);
+      if (!(code >47 && code <58) &&//numeric characters
+      !(code >63 && code <91) &&//upperCase letter
+      !(code >96 && code <123)//lowecase letter
+           ){
+               return false
+           }
+           return true;
+  }
     
      
      
