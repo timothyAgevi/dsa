@@ -10,7 +10,7 @@
 // charcount('Your PIN  is 1234 !')
 // charcount("")
 // charcount("*")
-
+//Problem: write a function that return the number a  count for each char in a string
 function charCount(str){
 //make object to return at end
 var result ={};
