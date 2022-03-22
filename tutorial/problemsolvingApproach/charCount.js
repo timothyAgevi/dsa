@@ -73,7 +73,7 @@ return result;
        // variable for str[i] 
        var char =char.toLowerCase()// reasign char
        //add regular experession to result //TO CHECKALPHANUMERIC
-       if(/[a-z0-9]/.test(char)){  //if char issth else(soace,period etc)dont do anything
+       if(isAlphanumeric(char)){  //if char issth else(soace,period etc)dont do anything
    //char exists in str
         ////if char is a number/letter and key in object ,add one to count object
           result[char]=++result[char] || 1; //oneline if else     
