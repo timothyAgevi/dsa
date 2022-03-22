@@ -42,18 +42,15 @@ return result;
     //make object to return at end
     var result ={};
     //loop over str,foreach char
-    for(var char of str){
+    for(var char of str){ //char of str
        // variable for str[i] 
        var char =str[i].toLowerCase()
        //add regular experession to result //TO CHECKALPHANUMERIC
        if(/[a-z0-9]/.test(char)){
        if(result[char]>0){//char exists in str
         ////if char is a number/letter and key in object ,add one to count object
-          result[char]++;
-       }else{
-     //if char is a number/letter a not  in object ,add it and set value to 1 .
-           result[char] =1;//char not yet in result object
-       };
+          result[char]=++result[char] || 1; //oneline if else
+       }
        
     }
     }
