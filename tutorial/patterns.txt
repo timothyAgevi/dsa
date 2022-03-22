@@ -1,0 +1,8 @@
+#patterns
+1.Frequency counter
+2.Multiple Pointers.
+3.Sliding Window.
+4.Divide and Conquer.
+5.Dynamic programming.
+6.Greedy Algorithms.
+7.Backtracking

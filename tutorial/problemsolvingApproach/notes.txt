@@ -35,5 +35,5 @@ can you:
  3.understand at glance.
  4.use result/method for other problem.
  5.improve performance .
- 6.think of orther ways to refactor.
- 7.how other pple solvedproblem.
+ 6.think of other ways to refactor.
+ 7.how other pple solved problem.
