@@ -47,7 +47,7 @@ return result;
        // variable for str[i] 
        var char =char.toLowerCase()// reasign char
        //add regular experession to result //TO CHECKALPHANUMERIC
-       if(/[a-z0-9]/.test(char)){
+       if(/[a-z0-9]/.test(char)){  //if char issth else(soace,period etc)dont do anything
    //char exists in str
         ////if char is a number/letter and key in object ,add one to count object
           result[char]=++result[char] || 1; //oneline if else
@@ -55,17 +55,17 @@ return result;
        
     }
     }
-     //if char issth else(soace,period etc)dont do anything
+   
     //return object at end
     return result;
     }
-
+    console.log(charCount1("hello there"))
 
     //notes on charcter codes for
    // 1.Code> 47 <58 : numeric characters.
    // 2.Code >63 <91 :upper alpha A-Z .
    //3.code >96 <123 :lowercas alpja
      
-     console.log(charCount1("hello there"))
+    
      
      
