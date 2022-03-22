@@ -3,24 +3,26 @@
 // squared in the second array.The frequencies (number of counts)must be the same length
 
 //note order doesnt matter for
- examples
+    //examples
  // same([1,2,3] , [4,1,9])// true 
  //same([1,2,3], [1,9])//false
  //same([1,2,1] ,[4,4,1])//false must be same frequency
 
  //naive solution 
-  pseudocode
+ // pseudocode
  
   //function with 2 params
-   function same(arr1,arr2){
+function same(arr1,arr2){
 //check if ar1.length same as arr2
-if( arr1.length !==arr2.length){
-    return false;
+let length1=arr1.length;
+let length2 = arr2.length;
+       if( length1 !==length2){
+         return false;
 }
 //loop indexes at arr1
 for( i=0; i<=arr1.length;i++){
      //var for corect index(containing arr[1]*2)
-    let correctIndex=arr2.indexOf(arr1[i]*2);
+    let correctIndex = arr2.indexOf(arr1[i]*2);
     if( correctIndex === -1){ //check if corectIndex is present in arr2
         return false;//if not return false
     }
@@ -30,7 +32,7 @@ for( i=0; i<=arr1.length;i++){
    }
   
   
- 
+ console.log( same([1,2,3][9,1,4]))
  
     
       
