@@ -1,4 +1,4 @@
-#patterns
+#patterns/bluprints
 1.Frequency counter
 2.Multiple Pointers.
 3.Sliding Window.
