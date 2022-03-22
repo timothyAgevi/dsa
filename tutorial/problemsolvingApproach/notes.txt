@@ -29,3 +29,11 @@ example:Write a function that takes in string and returns counts of each charact
  
 #4.solve or simplify.
 #5.look back n refactor.
+can you:
+ 1check result .
+ 2derive result differently.
+ 3.understand at glance.
+ 4.use result/method for other problem.
+ 5.improve performance .
+ 6.think of orther ways to refactor.
+ 7.how other pple solvedproblem.
