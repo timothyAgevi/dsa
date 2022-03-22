@@ -8,7 +8,7 @@
  //same([1,2,3], [1,9])//false
  //same([1,2,1] ,[4,4,1])//false must be same frequency
 
- //naive solution 
+ //naive solution o(n^2)
  // pseudocode
  
   //function with 2 params
@@ -30,10 +30,9 @@ for( i=0; i<=arr1.length;i++){
 }
   return true 
    }
-  
-  
- console.log( same([1,2,3][9,1,4]))
  
-    
+   //solution 2 0(n): loop thru each array once individually
+
+     
       
    
