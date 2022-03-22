@@ -38,13 +38,14 @@ return result;
  console.log(charCount("hello !"))
 
  //refactor solution using char of instead of for i <str.length >
+
  function charCount1(str){
     //make object to return at end
     var result ={};
     //loop over str,foreach char
     for(var char of str){ //char of str
        // variable for str[i] 
-       var char =str[i].toLowerCase()
+       var char =char.toLowerCase()// reasign char
        //add regular experession to result //TO CHECKALPHANUMERIC
        if(/[a-z0-9]/.test(char)){
        if(result[char]>0){//char exists in str
@@ -59,4 +60,4 @@ return result;
     return result;
     }
      
-     console.log(charCount("hello !"))
+     console.log(charCount1("hello !"))
