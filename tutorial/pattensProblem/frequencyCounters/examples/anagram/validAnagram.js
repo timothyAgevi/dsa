@@ -18,9 +18,23 @@ for( val of  arrStr1){
 //create counters here
    counter1[val]=( counter1[val] ||0) + 1
 }
-   
+ // counter for arrStr2
+ for( val of  arrStr2){
+    //create counters here
+       counter2[val]=( counter2[val] ||0) + 1
+    }
 // loop each key of frequencyCounter1
-   // check if key in str1 is in str2
-   //check if frequency of element in str1 ==str2 
+for( key in counter1){
+// check if key in str1 is in str2
+if(  !( key in str2)){
+    return false;
+}
+//check if frequency of element in str1 ==str2
+if( counter1[key] !== counter2[key] ){
+    return false;
+}
+}
+   
+    
 
 }
