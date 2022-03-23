@@ -17,7 +17,7 @@ for( let val of arr2){
     counter2[val]= (counter2[val] || 0) + 1
  }
  //print counters
- console.log(Counter1);
+ console.log(counter1);
     console.log(counter2);
  // loop thru keys in counter1
  for( let key in counter1){
