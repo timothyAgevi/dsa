@@ -20,3 +20,7 @@ for (var i of arr) {
   console.log(i); // logs "3", "5", "7"
   // it doesn't log "3", "5", "7", "hello"
 }
+#Applications
+1.anagrams
+2.if nembers one aray ,double those of .
+3.consist of same digits.

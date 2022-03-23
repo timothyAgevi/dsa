@@ -26,15 +26,17 @@ for( val of  arrStr1){
 // loop each key of frequencyCounter1
 for( key in counter1){
 // check if key in str1 is in str2
-if(  !( key in str2)){
+if(  !( key in counter2)){
     return false;
 }
 //check if frequency of element in str1 ==str2
 if( counter1[key] !== counter2[key] ){
     return false;
 }
+return true;
 }
-   
-    
-
+  console.log( counter1) 
+  console.log( counter2) 
+  console.log('true')
 }
+validAnagram('act','cat')
