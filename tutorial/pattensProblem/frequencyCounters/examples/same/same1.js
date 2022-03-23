@@ -26,11 +26,11 @@ for( let val of arr2){
          return false;
      }
      //check if frequency of values in  counter2 are equivalent to those in counter1
-     if( !(counter2[key**2] !==counter1[key]) ){
+     if( counter2[key**2] !==counter1[key] ){
          return false;
      }
  }
- console.log(counter1);
+console.log('true')
  return true;
 }
 same1([1,2,3,2], [9,1,4,4])
