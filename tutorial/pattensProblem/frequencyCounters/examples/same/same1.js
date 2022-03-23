@@ -13,7 +13,7 @@ for( let val of arr1){
    counter1[val]= (counter1[val] || 0) + 1
 }
 //val for each index in 2nd array 
-for( let val of counter2){
+for( let val of arr2){
     counter2[val]= (counter2[val] || 0) + 1
  }
  // loop thru keys in counter1
