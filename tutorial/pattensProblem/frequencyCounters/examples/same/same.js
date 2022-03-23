@@ -29,7 +29,7 @@ function same(arr1,arr2){
   return true ;
    }
  
-   console.log(same([2], [4]))
+   console.log(same([3], [9]))
      
       
    
