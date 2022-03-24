@@ -6,3 +6,12 @@ cases
 countUniqueValue([1,1,1,1,1,2])//2
 countUniqueValues([1,2,3,4,7,7,12,12,13])// 7
 countUniqueVallues([])//0
+
+Pseudo code 
+1Check if array.length === 0, return 0 .
+2.Assign  1st pointer i = 0.
+3.lop var j =1 ... 
+  4.check if arr[i] !== arr[j]
+    5.then increment i++
+    6.arr[i]=arr[j]
+7. return i +1;    
