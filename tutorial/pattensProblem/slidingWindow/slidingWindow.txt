@@ -1,0 +1,7 @@
+window can be array or number from one position to another.
+-depending on condition window either incerese
+ or closes(and new window is created i).
+ -used for tracking subset of data in array/string etc.
+ e.g. 
+ write a functio maxSubarraySum that accepts an array of integers and a number called n.
+ the function should calculate the  maxium sum of n consecutive elements in array.
