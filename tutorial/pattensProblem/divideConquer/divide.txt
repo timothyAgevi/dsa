@@ -1,0 +1,8 @@
+-divide data set into smaller chunks,then repeating a process with a subset of data.
+-E.g: 
+-Quick sort,merge sort
+-binary search-logarithmic
+e.g bin search question
+Given a sorted array of integers,write function called search that accepts a value and returns the index
+of where the value passed to the function is located.
+if value is not found,returns -1
