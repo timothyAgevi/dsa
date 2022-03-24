@@ -13,5 +13,6 @@ function sumZero1(arr){
 
     }
 }
+sumZero1([-4,-3,-2,-1,0,5,10])
 // time Complexity 0(n)
 //space complexity o(1)
