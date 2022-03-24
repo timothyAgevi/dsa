@@ -16,4 +16,4 @@ Pseudo code
     6.arr[i]=arr[j]
 7. return i +1;    
 //challenge without changing array 
-   
+    count number of times i,j are different
