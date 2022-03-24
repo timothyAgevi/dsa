@@ -1,0 +1,8 @@
+1. write function countUniqueVallues that accepts sorted array,
+and counts the unique values in the array.
+there can be negative numbers in array,but it will be always sorted.
+
+cases
+countUniqueValue([1,1,1,1,1,2])//2
+countUniqueValues([1,2,3,4,7,7,12,12,13])// 7
+countUniqueVallues([])//0
