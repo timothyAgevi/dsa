@@ -32,9 +32,11 @@ summary of
 3.Loop thru keys of counter 
   4//check if keys in 2nd param meet expectations 
    5//check if counter frequncies are equal.
+6.output   
 #frequncy counter for strings
 1.check if param length are equal.
 2.create counter- using char of string1
 3.loop thru chars of str2.
   //4.check if letter exist in counter.
   //5.if false return false ,else decrement counter 
+6.output 
