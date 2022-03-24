@@ -4,7 +4,7 @@ function maxSubarraySum(arr, num) {
     }
     var max = -Infinity;
     for (let i = 0; i < arr.length - num + 1; i ++){
-      temp = 0;
+      temp = 0;// temporarily stores sum
       for (let j = 0; j < num; j++){
         temp += arr[i + j];
       }
