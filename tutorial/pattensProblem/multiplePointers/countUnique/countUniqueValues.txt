@@ -15,3 +15,5 @@ Pseudo code
     5.then increment i++
     6.arr[i]=arr[j]
 7. return i +1;    
+//challenge without changing array 
+   
