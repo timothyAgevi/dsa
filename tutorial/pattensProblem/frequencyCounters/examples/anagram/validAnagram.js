@@ -1,42 +1,41 @@
-//Given 2 strings write a function to determine if the second string is an anagram of the first.
+//function that tkes 2params
+//check if params are equal lenght
+//define counter.
+//crete counter by looping index of str1
+//then define var to store each letter 
+//check if letter exists in obj/counter
+   //true increment ,else asign 1
 
-//pseidocode
-//function taking 2 parameters
-function validAnagram(str1,str2){
-//check if str1.length==str2.lenghth
-if( str1.length !== str2.length){
-    return false;          
-}
-//create counter for both Strings
-let counter1={}
-let counter2={}
-//create arrs for  each string
-let arrStr1=str1.split('')
-let arrStr2= str2.split('')
-//loop  each val of  each arr
-for( val of  arrStr1){
-//create counters here
-   counter1[val]=( counter1[val] ||0) + 1
-}
- // counter for arrStr2
- for( val of  arrStr2){
-    //create counters here
-       counter2[val]=( counter2[val] ||0) + 1
-    }
-// loop each key of frequencyCounter1
-for( key in counter1){
-// check if key in str1 is in str2
-if(  !( key in counter2)){
-    return false;
-}
-//check if frequency of element in str1 ==str2
-if( counter1[key] !== counter2[key] ){
-    return false;
-}
-return true;
-}
-  console.log( counter1) 
-  console.log( counter2) 
-  console.log('true')
-}
-validAnagram('act','cat')
+//loop over letter in str2
+  //check if present in lookup 
+    //true counter[letter]=-1
+
+    function validAnagram1(first, second) {
+        if (first.length !== second.length) {
+          return false;
+        }
+      
+        const lookup = {};
+      
+        for (let i = 0; i < first.length; i++) {
+          let letter = first[i];
+          // if letter exists, increment, otherwise set to 1
+          lookup[letter] ? lookup[letter] += 1 : lookup[letter] = 1;
+        }
+        console.log(lookup)
+      
+        for (let i = 0; i < second.length; i++) {
+          let letter = second[i];
+          // can't find letter or letter is zero then it's not an anagram
+          if (!lookup[letter]) {
+            return false;
+          } else {
+            lookup[letter] -= 1;
+          }
+        }
+      
+        return true;
+      }
+      
+      // {a: 0, n: 0, g: 0, r: 0, m: 0,s:1}
+      validAnagram1('anagrams', 'nagaramm')
