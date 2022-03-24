@@ -6,3 +6,8 @@ Then returns array of values summing to zero or undefined if pair does not exist
 cases
 sumZero([-3,-2,-1,0,1,2,3] )//[-3,3]
 sumZero([ -2,0,1,3])// undefined
+//study 
+sumZero([-4,-3,-2,-1,0,1,2,5])
+pointerLeft=-4
+pointerRight =5
+   movve pointerRigt to left else, move pointer to right.
