@@ -1,9 +1,10 @@
 function maxSubarraySum(arr, num){
     let maxSum = 0;
     let tempSum = 0;
-    if (arr.length < num) return null;//edge case
+    if (arr.length < num) return null;//edge case: if num greater than arr.length
+    //loop thru num
     for (let i = 0; i < num; i++) {
-      maxSum += arr[i];
+      maxSum += arr[i];// set maxSum
     }
     tempSum = maxSum;
     for (let i = num; i < arr.length; i++) {

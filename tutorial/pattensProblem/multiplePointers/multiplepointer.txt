@@ -1,5 +1,5 @@
 Creatiung Pointers thAT correspond to index and move to end,beggining or start ,based on certain conditions.
-
+# efficient for handling problems with minimal space complexity.
 
 
 #example

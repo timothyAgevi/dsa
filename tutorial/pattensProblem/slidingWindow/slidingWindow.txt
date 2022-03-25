@@ -5,3 +5,5 @@ window can be array or number from one position to another.
  e.g. 
  write a functio maxSubarraySum that accepts an array of integers and a number called n.
  the function should calculate the  maxium sum of n consecutive elements in array.
+
+ ##pseudocode 
