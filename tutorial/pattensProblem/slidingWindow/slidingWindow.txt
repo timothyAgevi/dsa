@@ -7,3 +7,12 @@ window can be array or number from one position to another.
  the function should calculate the  maxium sum of n consecutive elements in array.
 
  ##pseudocode 
+ 1.define tempSum, maxSum
+ 2.check if arrr larger than n ,return null
+ 3.loop index from 0 ,upto n, and increment each times
+   4.let maxSum += arr[i];
+  5. let tempSum =maxSum;
+  6.loop from i=num, i<arr.length;i++) 
+    //let tempSum =tempSum - arr[i-num] +arr[i]
+    //7.maxSum = math.max(tempSum,maxSum) 
+ 8,output    

@@ -1,3 +1,5 @@
+// time complexity:o(n^2)
+//space complexity: o(1)
 function maxSubarraySum(arr, num) {
     if ( num > arr.length){
       return null;
@@ -16,4 +18,4 @@ function maxSubarraySum(arr, num) {
     return max;
   }
   
-  maxSubarraySum([2,6,9,2,1,8,5,6,3],3)
+  maxSubarraySum([2,6,9,2,1,8,5,6,3],5)
