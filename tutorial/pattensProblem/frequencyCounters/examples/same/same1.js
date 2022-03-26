@@ -7,12 +7,12 @@ return false;
 //crete counters:object with key ,values(frequencies)
 let counter1= {} ;
 let counter2 ={};
-//loop through each index of array finding its values.
-//val for each index in 1st array key
+// create counters:loop through each index of array finding its values.
+// Counter1 :val for each index in 1st array key
 for( let val of arr1){
    counter1[val]= (counter1[val] || 0) + 1
 }
-//val for each index in 2nd array 
+// counter2:val for each index in 2nd array 
 for( let val of arr2){
     counter2[val]= (counter2[val] || 0) + 1
  }
