@@ -46,7 +46,7 @@
          if(i >=p.length -1){
             //check if values are equivalent
             if(arrayValuesEqual(sArr,pArr)){
-                result.push(i -(p.length -1)) // push from beginning
+                result.push(i -(p.length -1)) // push the beginning: current index - last index of p
             
             }
          }
