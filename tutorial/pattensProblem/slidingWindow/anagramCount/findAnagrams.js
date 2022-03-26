@@ -49,6 +49,8 @@
                 result.push(i -(p.length -1)) // push the beginning: current index - last index of p
             
             }
+            console.log(result)
+            return result;
          }
         
 
