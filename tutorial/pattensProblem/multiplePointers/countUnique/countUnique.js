@@ -13,3 +13,4 @@ function countUniqueValues(arr){
     return i + 1;
 }
 countUniqueValues([1,2,2,5,7,7,99])
+// try without changing array.
