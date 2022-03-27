@@ -2,12 +2,13 @@
 // time must be o(n) linear time
 
 //pseudocode
-//1.edge case: if not same length.
-//2.create counter for each integer.using val of
-//3.check if frequncy in a, same as in 
-  // loop thru indexes of a 
-  //check if digit exists in counterA
-  //counterB[ i] ==counterA[i]
+//1.convert  integer params to strings so as to be iteratede over, impossible for integers.
+//2.edge case: if not same length.
+//3.create counter for each integer.using val of
+//4.check if frequncy in a, same as in 
+  // loop thru indexes of second string 
+     //check if digit exists in counterA
+      //check if frequencies are equivalent.
 
   var sameFrequency=function(first,second){
       //convert numbers to strings and
