@@ -1,5 +1,7 @@
  -used for tracking/finding  subset of data in array/string that satisfy given condition.
 
+note: sliding window concerned with data btn 2 pointers, while multiple pointers just concerned with data at the 2 pointers.
+
 window can be array or number from one position to another.
 -depending on condition window either incerese
  or closes(and new window is created i).
