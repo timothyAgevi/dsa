@@ -28,7 +28,7 @@ for (var i of arr) {
 summary of
  #frequncy counter for arrays 
 1.check if param length are equal.
-2.create counters
+2.create counters using val of arr
 3.Loop thru keys of counter 
   4//check if keys in 2nd param meet expectations 
    5//check if counter frequncies are equal.
