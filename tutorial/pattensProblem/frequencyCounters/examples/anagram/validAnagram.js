@@ -9,6 +9,7 @@
 //loop over letter in str2
   //check if present in lookup 
     //true counter[letter]=-1
+//qn Given 2 strings write a function to determine if the second string is an anagram of the first.
 
     function validAnagram1(first, second) {
         if (first.length !== second.length) {
@@ -22,18 +23,20 @@
           // if letter exists, increment, otherwise set to 1
           lookup[letter] ? lookup[letter] += 1 : lookup[letter] = 1;
         }
-        console.log(lookup)
+        // console.log(lookup)
       
         for (let i = 0; i < second.length; i++) {
           let letter = second[i];
           // can't find letter or letter is zero then it's not an anagram
-          if (!lookup[letter]) {
-            return false;
-          } else {
+          if (lookup[letter]) {
             lookup[letter] -= 1;
+            
+          } else {
+            // console.log(false);
+            return false;
           }
         }
-      
+      //  console.log(true);
         return true;
       }
       

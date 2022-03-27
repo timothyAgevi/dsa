@@ -1,3 +1,9 @@
+//write a function caklled same that takes 2 arrays.
+//returns true if every value in the array has it's corresponding value
+// squared in the second array.The frequencies (number of counts)must be the same length
+
+
+
 //function with 2 paramters:
 function same1(arr1,arr2){
 //check if length is same length
