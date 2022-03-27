@@ -9,6 +9,9 @@
    //4.check if arr[i] !===arr[j], increment i, continue
 //5. else return true;
 var areThreeDuplicates= function(args){
+    const argsArr=args.split(',');
+    if(argsArr.length===0)return false;
+    
 
 }
 
