@@ -10,8 +10,9 @@
 //5. else return true;
 var areThreeDuplicates= function(args){
     const argsArr=args.split(',');
+    //edge case:if array is empty
     if(argsArr.length===0)return false;
-    
+
 
 }
 
