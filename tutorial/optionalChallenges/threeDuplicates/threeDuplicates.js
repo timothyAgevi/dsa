@@ -13,6 +13,8 @@ var areThreeDuplicates= function(args){
     //edge case:if array is empty
     if(argsArr.length===0)return false;
      let i =0;
+    // loop over array wirh j starting from 1
+    for( let j =1;j < argsArr.length;j++){}
 
 
 }
