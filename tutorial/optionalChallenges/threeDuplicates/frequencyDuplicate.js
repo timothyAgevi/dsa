@@ -9,14 +9,17 @@
 //5.return false.   
 function frequencyDuplicate(){
     let counter ={};
-    for(val of args){
+    
+    for( let val of arguments){
         let key = args[val];
         counter[key]++;
     }
     if( counter === 0)return false;
-    for(key in counter){
+    for( let key in counter){
+        if(counter[key] >1)return true;       
         
     }
+    return false;
 }
 
 
