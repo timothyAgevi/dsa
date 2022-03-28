@@ -7,20 +7,16 @@
 //3.loop thro keys of counter.
    //4.check if if frequency of key >1 return true;
 //5.return false.   
-function frequencyDuplicate(){
-    let counter ={};
-    
-    for( let val of arguments){
-        let key = args[val];
-        counter[key]++;
+function areThereDuplicates() {
+    let collection = {}
+    for(let val in arguments){
+      collection[arguments[val]] = (collection[arguments[val]] || 0) + 1
     }
-    if( counter === 0)return false;
-    for( let key in counter){
-        if(counter[key] >1)return true;       
-        
+    for(let key in collection){
+      if(collection[key] > 1) return true
     }
     return false;
-}
+  }
 
 
 

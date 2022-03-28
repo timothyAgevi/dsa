@@ -10,7 +10,7 @@
      //check if digit exists in counterA
       //check if frequencies are equivalent.
 
-  var sameFrequency=function(first,second){
+   function sameFrequency(first,second){
       //convert numbers to strings and
       first = first.toString();
       second = second.toString();
@@ -21,23 +21,21 @@
         let counterFirst ={};
         let counterSecond={};
         //frequency counterFirst
-        for(  let val of first){
-            let digit = first[val];// digit shall be the key in the counter
-            counterFirst[digit]++;//shall be the frequency value in counter. 
+        for(let i=0;i<first.length;i++) {
+            let digit = first[i];// digit shall be the key in the counter
+            counterFirst[digit]=(counterFirst[digit] || 0) + 1//shall be the frequency value in counter. 
         }
         //frequency counterSecond
-        for( let val of second){
-            let digit = first[val];// digit shall be the key in the counter.
-            counterSecond[digit]++;//shall be the frequency value in counter. 
-         //check if digit exists in first counter   
-            if( !counterFirst[digit]){
-                return false;
-
-            }//if exists check its frequency
-            if( counterSecond[digit]!== counterFirst[digit] ){
-                return false;
-            }
-        }
-        return true;
-    
-    }
+        for( let i=0;i <second.length;i++){
+            let digit = second[i];// digit shall be the key in the counter.
+            counterSecond[digit]=(counterSecond[digit] || 0) + 1;//shall be the frequency value in counter.
+        } 
+        for( let digit in counterFirst){
+            if(!(digit in counterSecond))return false;
+              //if exists   ,check frequency 
+            if( counterSecond[digit]!== counterFirst[digit] ) return false;                       
+             }        
+             return true;    
+            } 
+                 
+      
