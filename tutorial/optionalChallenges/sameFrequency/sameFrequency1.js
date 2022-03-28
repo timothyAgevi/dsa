@@ -1,3 +1,4 @@
+//felix's solution
 function sameFrequency(num1, num2) {
     num1 = num1.toString();
     num2 = num2.toString()

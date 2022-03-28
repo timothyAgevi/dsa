@@ -8,14 +8,16 @@
 //4.loop over array wirh j starting from 1. and
    //4.check if arr[i] !===arr[j], increment i, continue
 //5. else return true;
-var areThreeDuplicates= function(args){
-    const argsArr=args.split(',');
-    //edge case:if array is empty
-    if(argsArr.length===0)return false;
-     let i =0;
-    // loop over array wirh j starting from 1
-    for( let j =1;j < argsArr.length;j++){}
+function areThereDuplicates(args) {
+    if(new Set(args).size !== args.length){
+        console.log("fasle")
+    }
+    else{
+        console.log("true")
+    }
 
 
-}
+  }
+
+args=[1,2,3,4]
 
