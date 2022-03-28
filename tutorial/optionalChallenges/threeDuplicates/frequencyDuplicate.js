@@ -2,19 +2,13 @@
 // can use frequency counter oer multiole duplicates pattern.
 // pseudocode
 //using frequency counter pattern
-//1.edge case 
+//1.create counter .
+//2.edge case:if counter empty return false
+//3.loop thro keys of counter.
+   //4.check if if frequency of key >1 return true;
+//5.return false.   
 
 
-// function areThereDuplicates(args) {
-//     if(new Set(args).size !== args.length){
-//         console.log("fasle")
-//     }
-//     else{
-//         console.log("true")
-//     }
 
 
-//   }
-
-// args=[1,2,3,4]
 
