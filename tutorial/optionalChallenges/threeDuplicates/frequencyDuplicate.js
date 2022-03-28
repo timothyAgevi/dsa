@@ -7,7 +7,13 @@
 //3.loop thro keys of counter.
    //4.check if if frequency of key >1 return true;
 //5.return false.   
-
+function frequencyDuplicate(){
+    let counter ={};
+    for(val of args){
+        let key = args[val];
+        counter[key]++;
+    }
+}
 
 
 
