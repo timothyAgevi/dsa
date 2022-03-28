@@ -13,6 +13,7 @@ function frequencyDuplicate(){
         let key = args[val];
         counter[key]++;
     }
+    if( counter ===0)return false;
 }
 
 
