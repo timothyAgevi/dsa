@@ -1,4 +1,4 @@
-//write a function called sameFrequency .Taken 2 positive inteegers ,finds out  have the same frequency.
+//write a function called sameFrequency .Taken 2 positive integers ,finds out  have the same frequency.
 // time must be o(n) linear time
 
 //pseudocode
