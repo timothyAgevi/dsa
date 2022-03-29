@@ -21,7 +21,7 @@ when to use objects
 4.hasOwnProperty - o(1),true,false
 
 ##arrays
-wwhen need ordering-
+when need ordering-
 -fast acess/insertion and removal(sort of ..)
 #Big O of Arrays
 1.insertion- depends .
@@ -31,7 +31,7 @@ wwhen need ordering-
 n.b searching in arrays and objects:o(n)while acessing is big o(1)
     - inserting removing at the end:constant 
                              the start o(n)
-    - push snd pop fasterthan shift ,unshift unless in empty array.                  
+    - push and pop faster than shift ,unshift unless in empty array.                  
 
 #nbig o of array methods 
 1.push -o(1) adds to end of array
@@ -40,6 +40,8 @@ n.b searching in arrays and objects:o(n)while acessing is big o(1)
 4. unshift -o(n),adds one or more elements to the beginning of an array and returns the new length of the array.
 5.concat -o(n),joins strings and returns new string.
 6.slice- o(n),returns the extracted part in a new string.new array is returned
-7.splice-o(n),add/ removes element of an array.parameters(index,howmany,itemx..i,temX)
+7.splice-o(n),add/ removes element of an array.parameters(index,howmanyto remove,itemx..i,temX)
 8.sort -o (n *log n),
 9.forEach,map,filter,reduce - o(n)
+
+-splice modifies current array,splice(index,howmanytoRemove,itemx..i,temX) , while slice creates new array.(start,end),not including end
