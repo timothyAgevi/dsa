@@ -1,12 +1,15 @@
 -uses objects or sets to collect values/frequencies of elements.
 -often to avoid nested loops or o(n^2)with arrays/strings .
 #Aplications
-1 -compare inputs if similar values.
-2-anagrams.
-3.value contained within another value e.g if one is in []
+1 .Anagram. -1 counter
+2.Duplicates- use 1 counter
+3.compare similarity of inputs i.e arrays/strings a)values.
+                                                  b)frequency 
+
+-For comapring dimilarities use create counters for each input being compared.
 
 -usually o(n) instead of o(n^2)quadratic
-
+-
 important : object consist of key(element in arr) ,value(frequency/number of appearance)
  note:
   for in:  iterates over keys.

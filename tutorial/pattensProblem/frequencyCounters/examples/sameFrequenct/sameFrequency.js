@@ -30,7 +30,7 @@
             let digit = second[i];// digit shall be the key in the counter.
             counterSecond[digit]=(counterSecond[digit] || 0) + 1;//shall be the frequency value in counter.
         } 
-        for( digit in counterFirst){
+        for(let digit in counterFirst){
             if(!(digit in counterSecond))return false;
               //if exists   ,check frequency 
             if( counterSecond[digit]!== counterFirst[digit] ) return false;                       
