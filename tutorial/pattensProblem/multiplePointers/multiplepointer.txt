@@ -1,7 +1,7 @@
-Creatiung Pointers thAT correspond to index and move to end,beggining or start ,based on certain conditions.
+Creating Pointers that correspond to index and move to end,middle or start ,based on certain conditions.
 # efficient for handling problems with minimal space complexity.
 #applications 
-1. substtring that meet ceretain condition e.g unique values, sum upto zero, duplicates.
+1. substring that meet ceretain condition e.g unique values, sum upto zero, duplicates.
 
 #example
 1.Write a function called sumZero that accepts a sorted array.
