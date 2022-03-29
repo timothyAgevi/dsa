@@ -8,10 +8,11 @@
    //4.check if if frequency of key >1 return true;
 //5.return false.   
 function areThereDuplicates() {
-    let collection = {}
+    let collection = {};
+    let key;
     //creating counter called collection
     for(let index in arguments){ //note use in not of
-      let key = arguments[index]//values in argument are keys in counter
+      key = arguments[index]//values in argument are keys in counter
       collection[key] = (collection[key] || 0) + 1; //incrementing frequencies of counter
     }
   //looping thru keys and check if frequency >1
