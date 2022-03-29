@@ -1,4 +1,4 @@
-//write a function caklled same that takes 2 arrays.
+//write a function called same that takes 2 arrays.
 //returns true if every value in the array has it's corresponding value
 // squared in the second array.The frequencies (number of counts)must be the same length
 
