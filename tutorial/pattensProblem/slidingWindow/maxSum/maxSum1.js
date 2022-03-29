@@ -1,3 +1,5 @@
+//rite a functio maxSubarraySum that accepts an array of integers and a number called n.
+ //the function should calculate the  maxium sum of n consecutive elements in array.
 function maxSubarraySum(arr, num){
     let maxSum = 0;
     let tempSum = 0;
@@ -8,7 +10,7 @@ function maxSubarraySum(arr, num){
     }
     tempSum = maxSum;
     for (let i = num; i < arr.length; i++) {
-      tempSum = tempSum - arr[i - num] + arr[i];
+      tempSum = tempSum - arr[i - num] + arr[i];//apply sliding window
       maxSum = Math.max(maxSum, tempSum);
     }
     return maxSum;

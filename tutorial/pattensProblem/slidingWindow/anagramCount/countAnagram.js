@@ -27,11 +27,9 @@ var findAnagrams=function(s,p){
             // console.log(headIdx)
             sArr[headIdx]--;// frequency of prevoius index removed
             // console.log(headIdx)
-            // console.log(sArr[headIdx])
-            
-
+            // console.log(sArr[headIdx])            
         }
-        
+       //if  i >=p.length-1,check if arayvalues of counters are equal  
         if(i >=p.length -1){
             if(arrayValuesequal(sArr,pArr))result.push(i - (p.length-1))// add front index of anagram
 
