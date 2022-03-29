@@ -12,7 +12,7 @@ function areThereDuplicates() {
     //creating counter called collection
     for(let index in arguments){ //note use in not of
       let key = arguments[index]//values in argument are keys in counter
-      collection[key] = (collection[arguments[val]] || 0) + 1; //incrementing frequencies of counter
+      collection[key] = (collection[key] || 0) + 1; //incrementing frequencies of counter
     }
   //looping thru keys and check if frequency >1
     for( key in collection){
