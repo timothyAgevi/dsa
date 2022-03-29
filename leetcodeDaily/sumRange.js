@@ -21,7 +21,7 @@
 // numArray.sumRange(2, 5); // return 3 + (-5) + 2 + (-1) = -1
 // numArray.sumRange(0, 5); // return (-2) + 0 + 3 + (-5) + 2 + (-1) = -3
 
-//solution
+
 //we crete 2 functions i.e numArrays,sumRange to enable us call sumRange multiple times.
 var NumArray = function(nums) {
     this.NumArray = [...nums]//spread nums ,use this operator to make it acessible
