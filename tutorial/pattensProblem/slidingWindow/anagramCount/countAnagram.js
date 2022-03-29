@@ -19,7 +19,7 @@ var findAnagrams=function(s,p){
     //fill counter array for s string
     for (let i =0;i <s.length;i++){//looping thru each letter in string
         let index=s.charCodeAt(i)% 26;// assigning each letter a index in the sArr
-        sArr[index]++;//frequency of letters(i.e index)
+        sArr[index]++;//frequency of letters(i.e  value at each index)
 
         //if current index exceeds last index of anagram ,delete the previous 1st index
         if(i>p.length-1){
@@ -36,7 +36,8 @@ var findAnagrams=function(s,p){
         }       
       
     }
-    // console.log(sArr)
+    // console.log(pArr);
+    // console.log(sArr);
     // console.log(result);
     return result;  
 };
