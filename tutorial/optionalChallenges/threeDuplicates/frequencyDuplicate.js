@@ -9,8 +9,9 @@
 //5.return false.   
 function areThereDuplicates() {
     let collection = {}
-    for(let val in arguments){
-      collection[arguments[val]] = (collection[arguments[val]] || 0) + 1
+    for(let index in arguments){ //note use in not of
+      let key = arguments[index]//values in argument are keys in counter
+      collection[key] = (collection[arguments[val]] || 0) + 1
     }
     for(let key in collection){
       if(collection[key] > 1) return true
