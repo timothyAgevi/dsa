@@ -36,7 +36,7 @@ for( let val of arr2){
          return false;
      }
  }
-console.log('true')
+// console.log('true')
  return true;
 }
 same1([1,2,3,2], [9,1,4,4])
