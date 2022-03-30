@@ -1,3 +1,9 @@
+// write a function called minSubArrayLen which accepts 2 parameters
+// an array of positive integers and a positive integer.
+
+//the function should return the minimal length of contiguous subarrays,
+//of which the sum is greater than  or equal to the integer passed.
+
 function minSubArrayLen(nums, sum) {
     let total = 0;
     let start = 0;
