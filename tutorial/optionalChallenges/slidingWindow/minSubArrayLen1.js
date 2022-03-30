@@ -4,6 +4,9 @@
 //the function should return the minimal length of contiguous subarrays,
 //of which the sum is greater than  or equal to the integer passed.
 
+//examples
+//minSubArrayLen([2,3,1,2,4,3,],7)// 2  because [4,3 ]is the smallestsubarray
+
 function minSubArrayLen(nums, sum) {
     let total = 0;
     let start = 0;
