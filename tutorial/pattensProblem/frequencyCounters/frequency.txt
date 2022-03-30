@@ -5,6 +5,7 @@
 2.Duplicates- use 1 counter
 3.compare similarity of inputs i.e arrays/strings a)values.
                                                   b)frequency 
+                                                  c)is subsequence.
 
 -For comapring similarities use create counters for each input being compared.
 
