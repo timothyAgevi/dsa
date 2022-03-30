@@ -4,5 +4,10 @@
 //constrints: time o(n),space o(1)
 
 //pseudocode
-//1.variables -left,right,average
-//2.loop over
+//1.variables -start,end,average
+//2.loop when strat<end
+//3.create avg values
+//4.check if avg===num;
+  //retutn true 
+ //5.if avg >0 end--;
+ //6.if avg < num  strart++;

@@ -1,4 +1,4 @@
-function averagePair(rr){
+function averagePair(arr,num){
     // add whatever parameters you deem necessary - good luck!
     let left = 0 ; 
     let right = arr.length - 1; 
