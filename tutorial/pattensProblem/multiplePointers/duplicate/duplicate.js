@@ -1,20 +1,15 @@
-function areThereDuplicates(...arr){
-    arr.sort( (a,b)=>a>b)
-    if(arr.length === 0) return 0;
-    var i = 0;// index at zero  
-    for(var j = 1; j < arr.length; j++){
-        i++; 
-        if(arr[i] == arr[j]){
-            
-            console.log(true)
-            // return true; 
-                             
-                }
-               
+function areThereDuplicates(...args) {
+    // Two pointers
+    args.sort((a,b) => a > b);
+    let start = 0;
+    let next = 1;
+    while(next < args.length){
+      if(args[start] === args[next]){
+          return true
+      }
+      start++
+      next++
     }
-
-    console.log(false)
-    // return false;
-    
-}
+    return false
+  }
 areThereDuplicates(1,2,2)
