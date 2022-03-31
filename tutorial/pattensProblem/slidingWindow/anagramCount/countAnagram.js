@@ -32,7 +32,7 @@ var findAnagrams=function(s,p){
        //if  i >=p.length-1,check if arayvalues of counters are equal  
         if(i >=p.length -1){
             if(arrayValuesequal(sArr,pArr))result.push(i - (p.length-1))// add front index of anagram
-
+                  
         }       
       
     }
