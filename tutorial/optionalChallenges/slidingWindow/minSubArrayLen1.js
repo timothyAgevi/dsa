@@ -10,7 +10,7 @@
 function minSubArrayLen(nums, sum) {
     let total = 0;
     let start = 0;
-    let end = 0;
+    let end = 0 ;
     let minLen = Infinity;
    
     while (start < nums.length) {
@@ -18,7 +18,7 @@ function minSubArrayLen(nums, sum) {
           // move the window to right
       if(total < sum && end < nums.length){
         total += nums[end];
-              end++;
+              end++; // note: apa end pekee ndio inasonga
       }
       // if current window adds up to at least the sum given then
           // we can shrink the window 
