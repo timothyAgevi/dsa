@@ -20,7 +20,7 @@ function minSubArrayLen(nums, sum) {
         total += nums[end];
               end++; // note: apa end pekee ndio inasonga
       }
-      // if current window adds up to at least the sum given then
+      // if current window adds up to atleast the sum given then
           // we can shrink the window 
       else if(total >= sum){
         minLen = Math.min(minLen, end-start);
