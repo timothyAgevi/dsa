@@ -1,7 +1,7 @@
-// write a function called minSubArrayLen which accepts 2 parameters
+// write a function called indexminSubArrayLen which accepts 2 parameters
 // an array of positive integers and a positive integer.
 
-//the function should return the minimal length of contiguous subarrays,
+//the function should return the  indexes of minimal length of contiguous subarrays,
 //of which the sum is greater than  or equal to the integer passed.
 
 //examples
@@ -11,9 +11,9 @@ function minSubArrayLen(nums, sum) {
     let total = 0;
     let start = 0 ;
     let end = 0 ;
-    let minLen = Infinity;
-    
-    
+    // let minLen = Infinity;
+    result =[];
+    let i= 0 || nums.length -1;
    
     while (start < nums.length) {
       // if current window doesn't add up to the given sum then 
@@ -25,8 +25,8 @@ function minSubArrayLen(nums, sum) {
       // if current window adds up to atleast the sum given then
           // we can shrink the window 
       else if(total >= sum){
-        minLen = Math.min(minLen, end-start);
-        
+        // minLen = Math.min(minLen, end-start);
+       
               total -= nums[start];
               start++;
       } 
@@ -35,8 +35,8 @@ function minSubArrayLen(nums, sum) {
         break;
       }
     }
-   
-      return minLen === Infinity ? 0 : minLen;
-     
+    result.push(nums[i],nums[i-1])
+    //  minLen === Infinity ? 0 : minLen;
+     console.log(result);
   }
-  //minSubArrayLen([1,2,3,4],7)
+  minSubArrayLen([1,2,3,4],7)
