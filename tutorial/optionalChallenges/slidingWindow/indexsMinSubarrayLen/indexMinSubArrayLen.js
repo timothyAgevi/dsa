@@ -11,7 +11,7 @@ function minSubArrayLen(nums, sum) {
     let total = 0;
     let start = 0 ;
     let end = 0 ;
-    // let minLen = Infinity;
+    
     result =[];
     let i= 0 || nums.length -1;
    
@@ -25,7 +25,7 @@ function minSubArrayLen(nums, sum) {
       // if current window adds up to atleast the sum given then
           // we can shrink the window 
       else if(total >= sum){
-        // minLen = Math.min(minLen, end-start);
+        
        
               total -= nums[start];
               start++;
@@ -36,7 +36,7 @@ function minSubArrayLen(nums, sum) {
       }
     }
     result.push(nums[i],nums[i-1])
-    //  minLen === Infinity ? 0 : minLen;
+    
      console.log(result);
   }
   minSubArrayLen([1,2,3,4],7)
