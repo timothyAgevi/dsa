@@ -10,6 +10,6 @@ function areThereDuplicates(...args) {
       start++
       next++
     }
-    return false
+    return false;
   }
 areThereDuplicates(1,2,2)
