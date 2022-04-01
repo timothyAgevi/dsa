@@ -6,3 +6,12 @@
 // findLongestSubString('')//0
 //findlongesrSubstring('rithmschool)//6
 //findLongestSubString('thecatinthehat')//7
+
+function findLongestSubstring(str){
+    // add whatever parameters you deem necessary - good luck!
+    const arrStr = str.split('')
+    
+    for (let val of arrStr){
+        
+    }
+  }
