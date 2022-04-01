@@ -3,6 +3,8 @@
 
 //examples:
 // findLongestSubString('')//0
+//findlongesrSubstring('rithmschool)//6
+//findLongestSubString('thecatinthehat')//7
 
 //solution is
 function findLongestSubstring(str) {
