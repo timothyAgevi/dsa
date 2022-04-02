@@ -15,6 +15,13 @@
         
 //     }
 //   }
+
+//exMPLESS
+//1 .s = 'abcabcbb'
+//2. s ='bbbb';
+//3.s ='pwwkew'
+// 4. s = ''
+
   function lengthofLong (s){
      let max=0;//length of substring
      let windowStart=0;//strting index
