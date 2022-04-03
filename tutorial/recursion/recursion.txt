@@ -1,0 +1,11 @@
+objectives
+1.define recursion:Function that call itself.
+2. two essential components of a recursive funtion.
+3.Visualize the call stack -to better debug n understand recursion.
+4. Helper method recursion vs pure recursion.
+
+//examples of
+1. JSON.parse /JSON.stringify
+2.document.getElementById and DOM trasversal algorithims.
+- DOM is  a tree structure.
+3.Object trasversal i.e trees,graphs
