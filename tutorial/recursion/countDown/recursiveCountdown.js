@@ -1,0 +1,1 @@
+// function that countdown from num number upto o ,whwere it returns 'All done!'
