@@ -2,6 +2,9 @@ objectives
 1.define recursion:Function that call itself.
 2. two essential components of a recursive funtion.
 3.Visualize the call stack -to better debug n understand recursion.
+-stack.LIFO
+-when function is invoked its pushed on top of call stack.
+-whrn function ends or return, pop:  returns removed last elememt
 4. Helper method recursion vs pure recursion.
 
 //examples of
