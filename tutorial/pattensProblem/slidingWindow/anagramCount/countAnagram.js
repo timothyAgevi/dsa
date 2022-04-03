@@ -21,7 +21,7 @@ var findAnagrams=function(s,p){
         let index=s.charCodeAt(i)% 26;// assigning each letter a index in the sArr
         sArr[index]++;//frequency of letters(i.e  value at each index)
 
-        //if current index exceeds last index of anagram ,delete the previous 1st index
+        //if current index exceeds last index of anagram ,delete the previous 1st index i.e decrement its frequency by 1
         if(i>p.length-1){
             let headIdx=s.charCodeAt(i-p.length)%26;//previous 1st index
             // console.log(headIdx)
@@ -29,7 +29,7 @@ var findAnagrams=function(s,p){
             // console.log(headIdx)
             // console.log(sArr[headIdx])            
         }
-       //if  i >=p.length-1,check if arayvalues of counters are equal  
+       //if  i >=p.length-1,check if array values of counters are equal  
         if(i >=p.length -1){
             if(arrayValuesequal(sArr,pArr))result.push(i - (p.length-1))// add front index of anagram
                   
@@ -38,7 +38,7 @@ var findAnagrams=function(s,p){
     }
     // console.log(pArr);
     // console.log(sArr);
-    // console.log(result);
+    console.log(result);
     return result;  
 };
 findAnagrams("cbaebabacd" ,"abc")
