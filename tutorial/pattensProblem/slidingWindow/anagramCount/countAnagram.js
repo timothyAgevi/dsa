@@ -36,7 +36,7 @@ var findAnagrams=function(s,p){
         }       
       
     }
-    // console.log(pArr);
+    console.log(pArr);
     // console.log(sArr);
     console.log(result);
     return result;  

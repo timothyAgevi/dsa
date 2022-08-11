@@ -9,6 +9,7 @@
 | O (2n) |exponential |<ul><li> Find all subsets</li></ul> |
 | O (n!) |factorial |<ul><li>find all permutations of a given set/string</li></ul> |
 
+
 rules of thumbs for big o
  1.Constants do not matter.
  2.Smaller terms dont matter.
@@ -20,7 +21,7 @@ rules of thumbs for big o
 4. in a loop,  complexity =length of loop * complexity of what happens inside it
 
 #space complexity:
-Memory allocated to run algo
+Memory allocated to run algo.
 
 auxillary space complexity:space required by the algorithm, not including space taken up by the inputs
 -Mostly used

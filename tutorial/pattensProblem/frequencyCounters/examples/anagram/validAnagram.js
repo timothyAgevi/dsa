@@ -41,10 +41,10 @@
       }
       
       // {a: 0, n: 0, g: 0, r: 0, m: 0,s:1}
-      validAnagram1('anagrams', 'nagaramm')
+      validAnagram1('anagrams', 'nagaramm');
 
       //summary 
-      //1,check if length are same.length
+      //1.check if length are same.length
       //2. create counter :loop each index of fisrt string
                            //-create letter for each index in the first string.
                           //- if letter exists, increment, otherwise set to 1 
