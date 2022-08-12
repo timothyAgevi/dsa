@@ -18,6 +18,8 @@ function addUpto(n){
  //timers
  let t1=performance.now();
  addUpto(100000000);
+ console.log(t1) //58.32669700682163
  let t2=performance.now();
  addUpTo1(100000000)
- console.log(`time elapsed :${ (t1 -t2)/ 1000 } seconds` )
+ console.log(t2);//150.44406700134277
+//  console.log(`time elapsed :${ (t1 -t2)/ 1000 } seconds` )
