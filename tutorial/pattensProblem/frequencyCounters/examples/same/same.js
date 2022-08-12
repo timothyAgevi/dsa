@@ -17,6 +17,7 @@ function same(arr1,arr2){
    if( arr1.length !==arr2.length){
        return false;
 }
+
 //loop indexes at arr1
     for( i=0; i<=arr1.length;i++){
      //var for corect index(containing arr[1]**2)

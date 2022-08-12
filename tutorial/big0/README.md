@@ -4,7 +4,7 @@
 | O (log n) |logarithmic |<ul> <li> Finding element on sorted array with binary search</li></ul> |
 | O (n) |linear  |<ul><li>Find max element in unsorted array</li> <li>Duplicate elements in array with Hash Map</li></ul> |
 | O (n log n) |Linear logarithmic |<ul><li> Sorting elements in array with merge sort</li> </ul> |
-| O (n2) |Quadratic |<ul><li>Odd or Even number</li> <li>Sorting array with bubble sort</li></ul> |
+| O (n2) |Quadratic |<ul> <li>Sorting array with bubble sort</li></ul> |
 | O (n3) |Cubic |<ul><li>3 variables equation solver</li></ul> |
 | O (2n) |exponential |<ul><li> Find all subsets</li></ul> |
 | O (n!) |factorial |<ul><li>find all permutations of a given set/string</li></ul> |
@@ -32,6 +32,7 @@ auxillary space complexity:space required by the algorithm, not including space 
 3.Reference types are generally O( n), where n is the length (for arrays) or the number of keys (for objects)
 
 logarithm /exponent of number :number of times you can divide that number by 2 before you get a value that's less than or equal to one
+-also refered to as power
         e.g some searching algorithims, efficient sorting,recursion sometimes
        e.g 1 :space complexity =0(1)
        function sum(arr){
