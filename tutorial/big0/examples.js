@@ -26,7 +26,7 @@ function logAtMost10(n) {
     }
 }
 //qn4 o(n)
-function onlyElementsAtEvenIndex(array) {
+function onlyElementsAtEvenIndex(array) { //sielewi
     var newArray = Array(Math.ceil(array.length / 2));
     for (var i = 0; i < array.length; i++) {
         if (i % 2 === 0) {
@@ -35,6 +35,7 @@ function onlyElementsAtEvenIndex(array) {
     }
     return newArray;
 }
+
 //qn5 :o(n)
 function subtotals(array) {
     var subtotalArray = Array(array.length);
