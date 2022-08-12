@@ -1,4 +1,15 @@
 // 1.Write a functionthat accepts string input and returns a reversed msg
+function reverse(str){  
+    let reversed = "";      
+     for (var i = str.length - 1; i >= 0; i--){         
+       reversed += str[i];  
+     }     
+    return reversed;
+  }
+
+
+//   slotion  B
+
 // 2.function that calculates the sum of all numbers from 1 up to(AND INCLUDING )some number n
 
 // solution to 2: 
