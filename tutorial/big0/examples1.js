@@ -1,6 +1,8 @@
-1.Write a functionthat accepts string input and returns a reversed msg
-2.function that calculates the sum of all numbers from 1 up to(AND INCLUDING )some number n
-solution to 2: 
+// 1.Write a functionthat accepts string input and returns a reversed msg
+// 2.function that calculates the sum of all numbers from 1 up to(AND INCLUDING )some number n
+
+// solution to 2: 
+
 //0(n):linear
 function addUpto(n){                             
      let total =0;   //1 assigment     
@@ -9,12 +11,13 @@ function addUpto(n){
     }
     return total;
 }
- sln 2 b: 0(1)   constant    
+//  sln 2 b: 0(1)   constant    
  function addUpTo1(n){ 
      return n *(n+1)/2;  // multiplication,addition,division i.e 3 operations regardless of sze n
  }
  //timers
- let 1=performance.now();
+ let t1=performance.now();
  addUpto(100000000);
  let t2=performance.now();
- console.log(`toime elapsed :${ (t1 -t2)/ 1000 seconds})
+ addUpTo1(100000000)
+ console.log(`time elapsed :${ (t1 -t2)/ 1000 } seconds` )
