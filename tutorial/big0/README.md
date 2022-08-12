@@ -32,7 +32,7 @@ auxillary space complexity:space required by the algorithm, not including space 
 3.Reference types are generally O( n), where n is the length (for arrays) or the number of keys (for objects)
 
 logarithm /exponent of number :number of times you can divide that number by 2 before you get a value that's less than or equal to one
--also refered to as power
+-also refered to as power.
         e.g some searching algorithims, efficient sorting,recursion sometimes
        e.g 1 :space complexity =0(1)
        function sum(arr){
@@ -42,6 +42,7 @@ logarithm /exponent of number :number of times you can divide that number by 2 b
            }
            return total;
        } 
+
        eg2:spce complexity 0(n)
        function double(arr){
            let newArr =[];
