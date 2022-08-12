@@ -9,7 +9,10 @@ function reverse(str){
 
 
 //   slotion  B
-
+function reverseString(s){
+    return s.split("").reverse().join("");
+}
+reverseString("Hello");
 // 2.function that calculates the sum of all numbers from 1 up to(AND INCLUDING )some number n
 
 // solution to 2: 
