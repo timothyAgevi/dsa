@@ -27,10 +27,11 @@ function same(arr1,arr2){
     }
      arr2.splice(correctIndex,1)//else splice it from array
 }
+
   return true ;
    }
  
-   console.log(same([3], [9]))
+   console.log(same([1,2,3] , [4,1,9]))
      
       
    
