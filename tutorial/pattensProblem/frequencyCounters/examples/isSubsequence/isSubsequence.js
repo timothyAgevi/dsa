@@ -1,6 +1,7 @@
 //Write a function that takes 2 strings and checks whether the charascters 
 //infirst string appear somewhere in second string ,without their order changing.
 
+// leetcode 392
 
 function isSubsequence(str1,str2) {
     // good luck. Add any arguments you deem necessary.
@@ -16,7 +17,7 @@ function isSubsequence(str1,str2) {
     
     for(let key in counter1){
         if(counter2[key]){
-            return true
+            return truenty
         }else {
             false
         }

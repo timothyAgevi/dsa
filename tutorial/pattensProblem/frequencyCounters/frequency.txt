@@ -1,5 +1,6 @@
 -uses objects or sets to collect values/frequencies of elements.
 -often to avoid nested loops or o(n^2)with arrays/strings .
+
 #Aplications
 1 .Anagram. -1 counter
 2.Duplicates- use 1 counter
@@ -28,9 +29,10 @@ for (var i of arr) {
   console.log(i); // logs "3", "5", "7"
   // it doesn't log "3", "5", "7", "hello"
 }
+
 #Applications
 1.anagrams
-2.if nembers one aray ,double those of .
+2.if members one array ,double those of another.
 3.consist of same digits.
 4.Duplicates : any arg 
               -function tkes specified number of params.
@@ -39,10 +41,11 @@ summary of
  #frequncy counter for arrays 
 1.check if param length are equal.
 2.create counters using val of arr
-3.Loop thru keys of counter 
-  4//check if keys in 2nd param meet expectations 
+3.Loop thru keys of counter.
+  4//check if keys in 2nd param meet expectations.
    5//check if counter frequncies are equal.
 6.output   
+
 #frequncy counter for strings
 1.check if param length are equal.
 2.create counter- using char of string1

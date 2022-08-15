@@ -7,6 +7,8 @@
 //3.loop thro keys of counter.
    //4.check if if frequency of key >1 return true;
 //5.return false.   
+
+//leetcode 217
 function areThereDuplicates() {
     let collection = {};
     let key;
