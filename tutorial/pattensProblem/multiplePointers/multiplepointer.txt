@@ -16,3 +16,5 @@ sumZero([-4,-3,-2,-1,0,1,2,5])
 pointerLeft=-4
 pointerRight =5
    move pointerRigt to left else, move pointer to right.
+
+   
