@@ -68,12 +68,12 @@ return result;
   function charCount2(str){
     //make object to return at end
     var result ={};
-    //loop over str,foreach char
+    //loop over str,for each char
     for(var char of str){ //char of str
        // variable for str[i] 
        var char =char.toLowerCase()// reasign char
        //add regular experession to result //TO CHECKALPHANUMERIC
-       if(isAlphanumeric(char)){  //if char issth else(soace,period etc)dont do anything
+       if(isAlphanumeric(char)){  //if char is sth else(soace,period etc)dont do anything
    //char exists in str
         ////if char is a number/letter and key in object ,add one to count object
           result[char]=++result[char] || 1; //oneline if else     

@@ -17,7 +17,7 @@ function isSubsequence(str1,str2){
         counter1[char]=(counter1[char] ||0)+ 1;
 
     }
-    for( let i=0;i<str1.length;i++){
+    for( let i=0;i<str2.length;i++){
         let char=counter2[i];
         counter2[char]=(counter2[char] ||0)+ 1;
 
