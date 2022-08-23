@@ -1,5 +1,6 @@
 //write a function called, areThreeDuplicates which accepts a variable number of aurguments, and checks whether there are any duplicates among the arguments passed in.
 // can use frequency counter oer multiole duplicates pattern.
+
 // pseudocode
 //using frequency counter pattern
 //1.create counter .
