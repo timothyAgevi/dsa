@@ -17,7 +17,7 @@ function isSubsequence(str1,str2) {
     
     for(let key in counter1){
         if(counter2[key]){
-            return truenty
+            return true
         }else {
             false
         }
