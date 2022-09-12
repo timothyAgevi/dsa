@@ -7,6 +7,7 @@
   //3.loop over keys in counter1
      //check if key is present in counter2
 
+     //leetcode 392
 function isSubsequence(str1,str2){
     
     let counter1={}

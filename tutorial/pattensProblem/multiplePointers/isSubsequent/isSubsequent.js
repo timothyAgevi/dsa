@@ -7,6 +7,7 @@
 // of the characters without disturbing the relative positions of the remaining characters. (i.e., "ace"
 //  is a subsequence of "abcde" while "aec" is not).
 
+//// leetcode 392
 var isSubsequence = function(s, t) {
   
     if (s.length == 0) {
