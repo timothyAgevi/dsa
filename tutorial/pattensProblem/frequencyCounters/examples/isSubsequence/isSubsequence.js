@@ -25,3 +25,5 @@ function isSubsequence(str1,str2) {
     
     
   }
+
+  //use multiple pointers instead of frequincy 
