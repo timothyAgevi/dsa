@@ -1,3 +1,5 @@
+  //leetcode 242. Valid Anagram
+    //pseido-code
 //function that tkes 2params
 //check if params are equal lenght
 //define counter.
@@ -11,22 +13,22 @@
     //true counter[letter]=-1
 //qn Given 2 strings write a function to determine if the second string is an anagram of the first.
 
-    function validAnagram1(first, second) {
-        if (first.length !== second.length) {
+    function validAnagram1(firstStr, secondStr) {
+        if (firstStr.length !== secondStr.length) {
           return false;
         }
       
         const lookup = {};
       //creating counter called lookup
-        for (let i = 0; i < first.length; i++) {
-          let letter = first[i];
+        for (let i = 0; i < firstStr.length; i++) {
+          let letter = firstStr[i];
           // if letter exists, increment, otherwise set to 1
           lookup[letter] ? lookup[letter] += 1 : lookup[letter] = 1;
         }
         // console.log(lookup)
       
-        for (let i = 0; i < second.length; i++) {
-          let letter = second[i];
+        for (let i = 0; i < secondStr.length; i++) {
+          let letter = secondStr[i];
           // can't find letter or letter is zero then it's not an anagram
           if (lookup[letter]) {
             lookup[letter] -= 1;
