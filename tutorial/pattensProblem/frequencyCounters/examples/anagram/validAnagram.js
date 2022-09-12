@@ -1,7 +1,7 @@
   //leetcode 242. Valid Anagram
     //pseido-code
 //function that tkes 2params
-//check if params are equal lenght
+//check if params are equal lengh
 //define counter.
 //crete counter by looping index of str1
 //then define var to store each letter 
