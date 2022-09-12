@@ -5,7 +5,7 @@
 //1.convert  integer params to strings so as to be iteratede over, impossible for integers.
 //2.edge case: if not same length.
 //3.create counter for each integer.using val of
-//4.check if frequncy in a, same as in 
+//4.check if frequncy in a, same as in b
   // loop thru indexes of second string 
      //check if digit exists in counterA
       //check if frequencies are equivalent.
