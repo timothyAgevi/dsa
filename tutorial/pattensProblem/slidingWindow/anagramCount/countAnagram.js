@@ -1,4 +1,5 @@
-
+//leetcode438
+//Given two strings s and p, return an array of all the start indices of p's anagrams in s. You may return the answer in any order.
 const arrayValuesequal= (arr1,arr2)=>{
     for(let i=0; i<arr1.length; i++) if(arr1[i]!==arr2[i]) return false;
     return true;
