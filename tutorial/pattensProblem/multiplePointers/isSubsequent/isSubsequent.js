@@ -22,11 +22,11 @@ var isSubsequence = function(s, t) {
         }   
         ++p2;
         if (p1 >= s.length){
-            console.log(true)
+            // console.log(true)
             return true
         }
     };
-    console.log(false)
+    // console.log(false)
     return false
 
 };
