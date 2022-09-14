@@ -116,19 +116,40 @@ function solution (N) {
     return 0;
 }
 
+//best solution: using binary division
 
-// Scenarios:
-// N = 9 (1001), Expected = 2
-// N = 529 = (1000010001), Expected = 4
-// N = 51272 (1100100001001000), Expected = 4
-// N = 15 (1111), Expected = 0
-// N = 53 (110101), Expected = 1
-// N = 2147483647 (1111111111111111111111111111111), Expected = 0
-// N = 2147483648 (10000000000000000000000000000000), Expected = 0
-// N = 0 (0), Expected = 0
-// N = -1 (null), Expected = 0
-// N = "A" (null), Expected = 0
-// N = null (null), Expected = 0
-// N = [blank] (null), Expected = 0
+function solution(N){
+//psedocode
+//declare: divResult,maxGap,countZeros
+//find modulus of N
+  //if modulus is 1 set countZeros to zero
+//if moduls =1 already found but current digit is zero;increment countZeros 
+          //fing max btn macgap andcountZeros
+ //else divRes=  Math.floor( divRes%2)   
+ let firstOne =false;
+
+    let divRes=N;
+    let maxGap=0
+    let countZeros=0;
+   
+    while(divRes!= 0){
+        //check if current modulus is first 1
+        if(divRes%2==1){
+        firstOne=true;
+        //reset countZeros
+        countZeros=0;
+        }
+        //if current digit/modulus is zero but a 1 preceeded it
+        else if(firstOne){
+            countZeros++;
+            maxGap=Math.max(maxGap,countZeros);
+        }
+        //if current modulus is zero without preceeding 1
+        divRes=Math.floor(divRes/2);
+    }
+return maxGap;
+}
+
+
 
 
