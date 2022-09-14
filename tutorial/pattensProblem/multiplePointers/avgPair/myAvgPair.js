@@ -15,3 +15,4 @@ function averagePair(arr,num){
     }
     return false;
   }
+  //assumes it a sorted array
