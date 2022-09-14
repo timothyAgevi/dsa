@@ -30,8 +30,9 @@ var isSubsequence = function(s, t) {
     return false
 
 };
-isSubsequence('abcde','ace')// if 1st parameter is a subsequence of 2nd
-
+// if 1st parameter is a subsequence of 2nd
+isSubsequence('abcde','ace')//false
+isSubsequence('ace','abcde',)//true
 
 
 //NOTE :USE THIS APPROACH INSTEAD OF FREQENCY COUNTER
