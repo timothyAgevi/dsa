@@ -18,15 +18,19 @@ var isSubsequence = function(s, t) {
     while(p1 < s.length && p2 < t.length) { 
         if (s.charAt(p1) == t.charAt(p2)) {
             ++p1;
-        }   ++p2;
         
+        }   
+        ++p2;
         if (p1 >= s.length){
+            console.log(true)
             return true
         }
     };
+    console.log(false)
     return false
 
 };
+isSubsequence('abcde','ace')// if 1st parameter is a subsequence of 2nd
 
 
 
